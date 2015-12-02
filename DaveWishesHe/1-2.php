@@ -11,7 +11,7 @@ foreach ($input as $position => $bracket) {
     } else {
         $floor++;
     }
-	if ($floor < 0) {
+    if ($floor < 0) {
         echo ($position + 1) . "\n";
         die();
     }
